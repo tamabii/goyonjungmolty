@@ -1,6 +1,6 @@
 # Molty Royale Auto-Agent
 
-Auto-grinding agent untuk Molty Royale - farming sMoltz dari free rooms.
+Auto-grinding agent untuk Molty Royale di CROSS- farming sMoltz dari free rooms.
 
 ## Setup Cepat
 
