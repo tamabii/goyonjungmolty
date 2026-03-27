@@ -1,0 +1,38 @@
+# === SECURITY - NEVER COMMIT THESE ===
+config.json
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+agent-wallet.json
+owner-wallet.json
+credentials.json
+
+# === RUNTIME DATA ===
+data/state.json
+data/pid
+logs/*.log
+*.log
+
+# === NODE ===
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === OS ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === IDE ===
+.vscode/
+.idea/
+*.sublime-*
+
+# === TESTS ===
+coverage/
+.nyc_output/

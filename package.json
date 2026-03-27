@@ -1,0 +1,18 @@
+{
+  "name": "goyonjungmolty",
+  "version": "1.0.0",
+  "description": "Molty Royale Auto-Agent - Free Room Grinder",
+  "main": "src/agent.js",
+  "scripts": {
+    "start": "node src/agent.js",
+    "check": "node scripts/check.js",
+    "setup": "cp config.example.json config.json && echo 'Edit config.json with your credentials'",
+    "test": "echo 'Error: no test specified'"
+  },
+  "keywords": ["molty-royale", "game", "agent", "crypto"],
+  "author": "knawmen",
+  "license": "Private",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
